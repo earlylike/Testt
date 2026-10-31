@@ -60,6 +60,9 @@
 
             console.log("FCM TOKEN:", token);
 
+            document.body.innerHTML +=
+    `<textarea style="width:95%;height:150px">${token}</textarea>`;
+
             document.getElementById("status").innerText =
                 "Notifications enabled!";
 
